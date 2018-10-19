@@ -1,0 +1,18 @@
+---
+layout: default
+title: 博客首页
+page-title: You have to believe in yourself
+home-title: 我的博客.
+description: 这里本该是条分割线
+---
+
+{% include header.html %}
+{% include boot.html %}
+<main>
+    {% include title.html %}
+    <ul class="post-list">
+      {% include posts_paginator.html %}
+    </ul>
+</main>
+{% include pageNav.html %}
+{% include footer.html %}
